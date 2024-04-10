@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+}
+.backround{
+  background-color: rgb(60, 128, 237);
+  min-height: 100vh;
+}
+.heading{
+  color: white;
+  font-family: 'Noto Sans',sans-serif;
+  text-align: center;
+}
+.span-style{
+  font-size: 59px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.heading-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width:600px){
+  .span-style{
+    font-size: 39px;
+  }
+}
